@@ -15,7 +15,7 @@ class App extends Component {
           <div className="container-fluid">
             <div className="navbar-header">
               <Link to="/" className="navbar-brand">
-                React Music Player
+                Artist Finder
               </Link>
               <button className="navbar-toggle" data-target="#menu" data-toggle="collapse">
                 <span className="icon-bar"></span>
@@ -26,7 +26,7 @@ class App extends Component {
             <div className="navbar-collapse collapse" id="menu">
               <ul className="nav navbar-nav">
                 <li>
-                  <Link to="/music">Music Player</Link>
+                  <Link to="/music">Artist Finder</Link>
                 </li>
                 <li>
                   <Link to="/about">About</Link>
