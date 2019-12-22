@@ -15,7 +15,7 @@ class App extends Component {
           <div className="container-fluid">
             <div className="navbar-header">
               <Link to="/" className="navbar-brand">
-                Artist Finder
+                Artist Finder 
               </Link>
               <button className="navbar-toggle" data-target="#menu" data-toggle="collapse">
                 <span className="icon-bar"></span>
