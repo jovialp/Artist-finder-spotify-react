@@ -52,41 +52,16 @@ class Track extends Component {
           <h3 className="text-center">Top 10 Tracks</h3>
           <div className="owl-carousel owl-theme">
             <div className="item">
-              <h4>1</h4>
+              <div className="track-box">
+                <h5 className="text-center">1</h5>
+              </div>
             </div>
             <div className="item">
-              <h4>2</h4>
+              <div className="track-box">
+                <h5 className="text-center">1</h5>
+              </div>
             </div>
-            <div className="item">
-              <h4>3</h4>
-            </div>
-            <div className="item">
-              <h4>4</h4>
-            </div>
-            <div className="item">
-              <h4>5</h4>
-            </div>
-            <div className="item">
-              <h4>6</h4>
-            </div>
-            <div className="item">
-              <h4>7</h4>
-            </div>
-            <div className="item">
-              <h4>8</h4>
-            </div>
-            <div className="item">
-              <h4>9</h4>
-            </div>
-            <div className="item">
-              <h4>10</h4>
-            </div>
-            <div className="item">
-              <h4>11</h4>
-            </div>
-            <div className="item">
-              <h4>12</h4>
-            </div>
+            
             {tracks.map(track => {
               const { id, name, album, preview_url } = track;
 
