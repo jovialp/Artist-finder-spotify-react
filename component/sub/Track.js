@@ -58,7 +58,7 @@ class Track extends Component {
             </div>
             <div className="item">
               <div className="track-box">
-                <h5 className="text-center">1</h5>
+                <h5 className="text-center">2</h5>
               </div>
             </div>
             
