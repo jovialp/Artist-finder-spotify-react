@@ -88,7 +88,7 @@ class Track extends Component {
               );
             })}
           </div>
-        </div>
+        </div> 
       </div>
     );
   }
