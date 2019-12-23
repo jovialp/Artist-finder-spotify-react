@@ -74,11 +74,7 @@ class Track extends Component {
                   <div className="track-box">
                     <h5 className="text-center">{name}</h5>
                     <div className="text-center">
-                      <img
-                        src={album.images[0].url}
-                        alt=""
-                        height={200}
-                        width={200}
+                      <img src={album.images[0].url} alt="" height={200} width={200}
                         className="img-responsive img-thumbnail"
                       />
                       <h3 style={{ cursor: "pointer" }}>
