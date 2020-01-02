@@ -51,18 +51,14 @@ class Track extends Component {
         <div className="col-xs-12">
           <h3 className="text-center">Top 10 Tracks</h3>
           <div className="owl-carousel owl-theme">
-            <div className="track-box">
-              <h5 className="text-center">1</h5>
-            </div>
-            <div className="track-box">
-              <h5 className="text-center">2</h5>
-            </div>
+            
 
             {tracks.map(track => {
               const { id, name, album, preview_url } = track;
 
               return (
-                <div key={id} className="track-box">
+                <div key={id} className="col-xs-6 col-md-3">
+                <div  className="track-box">
                   <h5 className="text-center">{name}</h5>
                   <div className="text-center">
                     <img
@@ -80,6 +76,7 @@ class Track extends Component {
                       {this.trackIcon(track)}{" "}
                     </h3>
                   </div>
+                </div>
                 </div>
               );
             })}
