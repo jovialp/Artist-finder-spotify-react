@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "owl.carousel": "2.3.4",
     "prop-types": "15.7.2",
     "react": "16.9.0",
