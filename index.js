@@ -7,7 +7,7 @@ import About from './component/About';
 
 import './style.css';
 
-class App extends Component { 
+class App extends Component {
   render() {
     return (
       <Router>
@@ -15,15 +15,15 @@ class App extends Component {
           <div className="container-fluid">
             <div className="navbar-header">
               <Link to="/" className="navbar-brand">
-                Artist Finder 
+                Artist Finder
               </Link>
-              <button className="navbar-toggle" data-target="#menu" data-toggle="collapse">
+              {/* <button className="navbar-toggle" data-target="#menu" data-toggle="collapse">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
-              </button>
+              </button> */}
             </div>
-            <div className="navbar-collapse collapse" id="menu">
+            {/* <div className="navbar-collapse collapse" id="menu">
               <ul className="nav navbar-nav">
                 <li>
                   <Link to="/music">Artist Finder</Link>
@@ -35,7 +35,7 @@ class App extends Component {
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </nav>
         <div className="container">
@@ -46,7 +46,6 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
-
     );
   }
 }
